@@ -11,7 +11,7 @@ sequenceDiagram
     
 ```mermaid
 graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
+    A[OPEN] -->|all orders filled| B(CLOSED)
     B --> C{Let me think}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
