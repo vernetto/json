@@ -12,6 +12,7 @@ sequenceDiagram
 ```mermaid
 graph TD
     A[OPEN] -->|all orders filled| B(CLOSED)
+    B(CLOSED) -->|open orderbook| A[OPEN]
     B --> C{Let me think}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
