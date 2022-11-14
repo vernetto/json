@@ -6,6 +6,8 @@ sequenceDiagram
     participant J as John
     A->>J: Hello John, how are you?
     J->>A: Great!
+```    
+    
     
 ```mermaid
 graph TD
@@ -14,4 +16,4 @@ graph TD
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
-  
+```  
